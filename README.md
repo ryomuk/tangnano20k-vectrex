@@ -11,7 +11,7 @@ Tang Nano 20K top level module for Dar's Vectrex
   - Do not redistribute roms whatever the form
   - Use at your own risk
 
-### Tang Nano 9K版(https://github.com/ryomuk/tangnano9k-vectrex)との主な差分
+### [Tang Nano 9K版](https://github.com/ryomuk/tangnano9k-vectrex)との主な差分
 - コントローラーをゲームキットのコントローラに変更(1人用，デジタルのみ対応)
 - VGA出力信号に抵抗をはさみました．
 - XYモニター(オシロスコープ)用の信号を出力するようにしました．
