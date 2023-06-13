@@ -2,7 +2,7 @@
 Tang Nano 20K top level module for Dar's Vectrex
 
 ## 概要
-- Tang Nano 20K用のトップレベルモジュール，オシロスコープ用信号出力のためのDAC(MCP4922)用モジュール，および周辺回路の回路図です．
+- Vectrex by Dar (darfpga@aol.fr) http://darfpga.blogspot.fr をTang Nano 20Kで動作させるためのトップレベルモジュール，オシロスコープ用信号出力のためのDAC(MCP4922)用モジュール，および周辺回路の回路図です．
 - とりあえず作ってみただけなので，動作は完全ではありませんし，デバッグ用のコード等も入っています．
 - [SourceForge DarFPGA](https://sourceforge.net/projects/darfpga/files/Software%20VHDL/vectrex/)にあったDE10-lite用のソースを改変して作りました．
 - オリジナルのパッケージのREADME.TXTにあるように，下記のことを理解した上でご使用下さい．
