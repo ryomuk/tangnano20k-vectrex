@@ -11,12 +11,23 @@ Tang Nano 20K top level module for Dar's Vectrex
   - Do not redistribute roms whatever the form
   - Use at your own risk
 
+![](images/0.jpg)
+
 ### rev0.3 (まだ改善の余地があり，改版予定ありです．)
 - VGA出力用のコードと回路は削除して，XYモニター(オシロスコープ)用の出力専用にしました．
 - Sony WatchmanをXYモニタに改造するための回路を追加しました．この回路についての詳細は[https://github.com/ryomuk/XYamp](https://github.com/ryomuk/XYamp)を参照して下さい．
 
 - コントローラーをアナログ対応にしました．TangNano20kゲームキットのコントローラは粗くてスティックの稼働範囲も狭いので，SONY純正のDualShock 2(SCPH-10010)をお薦めします．
 - 基板を作ってみました．ブレッドボード版のノイズが改善されるかと思ったのですが改善されませんでした．
+
+FPGA基板
+![](images/5.jpg)
+
+XYアンプ基板
+![](images/6.jpg)
+
+電池ボックスに収納しようとしたけど入らない．
+![](images/7.jpg)
 
 ## コンパイル方法
 
@@ -43,6 +54,18 @@ cp vectrex_scramble_prom.vhd vectrex_project/src/rom/ (ゲームROMデータの�
 
 ## その他
 - このプロジェクトはあくまでFPGAを使う練習用の試みなので，バグ等があってもメンテナンスをする予定はありません．
+
+
+# 動画
+動作している様子です．
+
+[![](https://img.youtube.com/vi/2sRUTAbVEdg/0.jpg)](https://www.youtube.com/watch?v=2sRUTAbVEdg)
+
+## その他の画像
+![](images/1.jpg)
+![](images/2.jpg)
+![](images/3.jpg)
+![](images/4.jpg)
 
 ## 更新履歴
 - 2023/6/13: 初版公開
