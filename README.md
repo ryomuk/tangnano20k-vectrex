@@ -13,7 +13,8 @@ Tang Nano 20K top level module for Dar's Vectrex
 
 ### rev0.3 (まだ改善の余地があり，改版予定ありです．)
 - VGA出力用のコードと回路は削除して，XYモニター(オシロスコープ)用の出力専用にしました．
-- Sony WatchmanをXYモニタに改造するための回路を追加しました．
+- Sony WatchmanをXYモニタに改造するための回路を追加しました．この回路についての詳細は[https://github.com/ryomuk/XYamp](https://github.com/ryomuk/XYamp)を参照して下さい．
+
 - コントローラーをアナログ対応にしました．TangNano20kゲームキットのコントローラは粗くてスティックの稼働範囲も狭いので，SONY純正のDualShock 2(SCPH-10010)をお薦めします．
 - 基板を作ってみました．ブレッドボード版のノイズが改善されるかと思ったのですが改善されませんでした．
 
