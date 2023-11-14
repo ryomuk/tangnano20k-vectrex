@@ -305,7 +305,7 @@ begin
       O_TXD_DAT    <= 8'h00;
       conf_entry   <= 1'b0;
       conf_ent_reg <= 1'b0;
-      conf_done    <= 1'b1;
+	  conf_done    <= 1'b1;
       conf_state   <= 0;
       pad_status   <= 0;      
    end
@@ -520,7 +520,7 @@ reg    [3:0]O_byte_cnt;
 always@(posedge I_CLK or negedge I_RSTn)
 begin
    if(! I_RSTn) Timer <= 0;
-   else         Timer <= Timer+1'd1;
+   else         Timer <= Timer+1;
 end
 
 always@(posedge I_CLK or negedge I_RSTn)
@@ -585,7 +585,7 @@ begin
             else if(I_TYPE == 1 && O_byte_cnt == 9)
                O_byte_cnt <= O_byte_cnt;
             else
-               O_byte_cnt <= O_byte_cnt+1'd1;
+               O_byte_cnt <= O_byte_cnt+1;
          end    
       end
    end

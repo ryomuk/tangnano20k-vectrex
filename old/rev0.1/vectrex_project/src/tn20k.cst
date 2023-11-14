@@ -1,17 +1,17 @@
 // Pin assign for Tang Nano 20K
-IO_LOC "sclk" 4;        // 27MHz system clock
+IO_LOC "clk" 4;	// 27MHz clock
 
 IO_LOC "sw1" 88;	// Tactile Switch S1
 IO_LOC "sw2" 87;	// Tactile Switch S2
 
-// DAC
-IO_LOC "dac_clk"   76;
-IO_LOC "dac_cs_n"  80;
-IO_LOC "dac_ld_n"  42;
-IO_LOC "dac_sd0"   41;
-IO_LOC "dac_sd1"   56;
-IO_LOC "dac_sd2"   54;
-IO_LOC "audio_pwm" 51;
+IO_LOC "aout_m"  76;
+IO_LOC "aout_r"  80;
+IO_LOC "aout_l"  42;
+IO_LOC "vout_hs" 41;
+IO_LOC "vout_vs" 56;
+IO_LOC "vout_r"  54;
+IO_LOC "vout_g"  51;
+IO_LOC "vout_b"  48;
 
 // Joystick 2
 IO_LOC "joystick_cs2"   72; IO_PORT "joystick_cs2"   PULL_MODE=NONE;
@@ -27,5 +27,10 @@ IO_LOC  "led[3]" 18; IO_PORT "led[3]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
 IO_LOC  "led[4]" 19; IO_PORT "led[4]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
 IO_LOC  "led[5]" 20; IO_PORT "led[5]" IO_TYPE=LVCMOS33 PULL_MODE=UP DRIVE=8;
 
-// for debug
-IO_LOC "debug" 73;
+// DAC
+IO_LOC "dac_cs_n" 73;
+IO_LOC "dac_clk"  74;
+IO_LOC "dac_sd"   85;
+IO_LOC "dac_ld_n" 77;
+IO_LOC "beam_z"   27;
+IO_LOC "beam_z_n" 28;

@@ -6,12 +6,9 @@
     <Device name="GW2AR-18C" pn="GW2AR-LV18QN88C8/I7">gw2ar18c-000</Device>
     <FileList>
         <File path="src/rtl_ryo/dualshock_controller.v" type="file.verilog" enable="1"/>
-        <File path="src/rtl_ryo/mcp4911x3.v" type="file.verilog" enable="1"/>
-        <File path="src/gowin_rpll/gowin_rpll.vhd" type="file.vhdl" enable="1"/>
+        <File path="src/rtl_ryo/mcp4922.v" type="file.verilog" enable="1"/>
         <File path="src/rom/vectrex_exec_prom.vhd" type="file.vhdl" enable="1"/>
         <File path="src/rom/vectrex_scramble_prom.vhd" type="file.vhdl" enable="1"/>
-        <File path="src/rom/vectrex_starhawk_prom.vhd" type="file.vhdl" enable="1"/>
-        <File path="src/rom/vectrex_testrev4_prom.vhd" type="file.vhdl" enable="1"/>
         <File path="src/rtl_dar/gen_ram.vhd" type="file.vhdl" enable="1"/>
         <File path="src/rtl_jkent/cpu09l_128a.vhd" type="file.vhdl" enable="1"/>
         <File path="src/rtl_mikej/YM2149_linmix_sep.vhd" type="file.vhdl" enable="1"/>
