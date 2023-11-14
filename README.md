@@ -1,6 +1,8 @@
 # tangnano20k-vectrex
 Tang Nano 20K top level module for Dar's Vectrex
 
+This document is written mostly in Japanese. If necessary, please use a translation service such as DeepL (I recommend this) or Google.
+
 ## 概要
 - Vectrex by Dar (darfpga@aol.fr) http://darfpga.blogspot.fr をTang Nano 20Kで動作させるためのトップレベルモジュール，オシロスコープ用信号出力のためのDAC(MCP4911)用モジュール，および周辺回路の回路図です．
 - とりあえず作ってみただけなので，動作は完全ではありませんし，デバッグ用のコード等も入っています．
